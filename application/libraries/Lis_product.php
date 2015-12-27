@@ -2,12 +2,13 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Lis_product
-{
+{	
 	protected $ci;
 
 	public function __construct()
 	{
-        $this->ci =& get_instance();
+        $this->ci =& get_instance();//chỗ này làm công việc gì vậy a?//anh giai thich cho em vs
+        //vi du cho chinh sua trong code > save lai
 	}
 	public function function_tbl(){
 		$ketqua = $this->ci->db->get('product')->result();	
