@@ -8,7 +8,7 @@ class Lis_product
 	public function __construct()
 	{
         $this->ci =& get_instance();//chỗ này làm công việc gì vậy a?//anh giai thich cho em vs
-        //vd lam lai
+        //commit moi
 	}
 	public function function_tbl(){
 		$ketqua = $this->ci->db->get('product')->result();	
